@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fae00c6-8ad1-4d62-b8e6-ea0765c05b6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/GalleryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/WaitingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/WebGameViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/api/RoomAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/api/SocketAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/dto/UserLoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/util/CustomCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/java/com/min/catchmymind_android/util/RequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/drawable/ic_forward_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/drawable/ic_keyboard_return_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/create_room.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/gallery_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/in_game.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/recycle_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/user_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/waiting_room.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_android_version/app/src/main/res/layout/web_game_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/api/GameHandleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/api/PictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/api/RoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/api/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/config/ServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/config/SocketConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/dto/PictureResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/dto/UserInfoResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/dto/UserLoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/dto/UserRegisterFormRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/model/PictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/model/RoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/model/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/service/PictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/service/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/java/com/min/catchmymind/CatchMyMind_backend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/androidTest/java/com/min/catchmymind_android/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/java/com/min/catchmymind_android/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/app/src/test/java/com/min/catchmymind_android/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../CatchMyMind_backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CatchMyMind_backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d7l3XbGmvHkocpb2ZLfLXkPFZG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fae00c6-8ad1-4d62-b8e6-ea0765c05b6f" name="Default Changelist" comment="" />
+      <created>1591688274612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591688274612</updated>
+      <workItem from="1591688278946" duration="5137000" />
+      <workItem from="1591783816079" duration="10061000" />
+      <workItem from="1591801385079" duration="1955000" />
+      <workItem from="1591808554318" duration="3528000" />
+      <workItem from="1593255729971" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
